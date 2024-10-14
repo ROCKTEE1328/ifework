@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: whitesmoke;
+  }
+.all{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    z-index: 1;
+    top: 0;
+    height: 15vh;
+    background-color: white;
+
+}
+.pate{
+    margin: 30px;
+}
+.pate a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+
+}
+.logo{
+    margin: 10px;
+}
+.main-text{
+    text-align: center;
+    padding: 50px;
+    margin: 10px;
+}
+.can-work{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+.can-img{
+    padding: 20px;
+    margin-top: 80px;
+    position: absolute;
+}
+.can-text{
+    width: 40%;
+    margin-left: 450px;
+    border: 3px solid rgb(160, 155, 155);
+    text-align: center;
+    height: 100vh;
+    padding: 40px;
+    line-height: 2;
+    word-spacing: 3;
+    
+}
+p{
+    color: grey;
+}
+button{
+    margin-top: 5px;
+    border-style: hidden;
+    background-color: blue;
+    width: 160px;
+    height: 30px;
+    color: white;
+}
+.can-mainimg{
+    margin-top: 400px;
+    text-align: center;
+}
+
+.make-form{
+    padding: 10px;
+    margin-top: 70px;
+}
+.make-form form{
+    display: flex;
+    padding: 10px;
+    
+}
+label{
+    padding-right: 200px;
+    margin: 20px;
+}
+input{
+    border: 2px  solid rgb(162, 159, 159); 
+    height: 30px; 
+    width: 300px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+.type{
+    border-style: hidden;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    margin-right: 450px;
+    margin-top: 20px;
+
+}
+.type:hover{
+    background-color: gainsboro;
+
+}
+.last{
+    background-color: rgb(60, 14, 104); 
+    height: fit-content; 
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+
+}
+.icon{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+.icon-img{
+    border: 1px solid white; 
+    width: 30px; 
+    border-radius: 20px; 
+    height: 30px;
+    color: white;
+    margin: 6px;
+    
+    
+}
+.pat{
+    margin: 30px;
+}
+.pat a{
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+
+}
+#odd:hover{
+    background-color: blue;
+    border-color: blue;
+}
+#black:hover{
+    border-color: black;
+    background-color: black
+}
+#brown:hover{
+    border-color: rgb(54, 25, 5);
+    background-color: rgb(54, 25, 5);
+}
+#red:hover{
+    border-color: rgb(232, 39, 39);
+    background-color: rgb(232, 39, 39);
+
+}
+#redd:hover{
+    border-color: rgb(232, 39, 39);
+    background-color: rgb(232, 39, 39);
+
+}
